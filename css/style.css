@@ -426,7 +426,7 @@ font-size: 1.2em;
 .projects .content .workBox .textBx2 {
     position: absolute;
     top: 0;
-    left: 35%;
+    left: 50%;
     width: 150px;
     height: 40px;
     border-radius: 5px;
@@ -435,12 +435,12 @@ font-size: 1.2em;
     justify-content: center;
     align-items: center;
     z-index: 150;
-    transform: translateY(800%);
+    transform: translate(-50%,800%);
     transition: 0.5s ease-in-out;
 }
 
 .projects .content .workBox:hover .textBx2{
-    transform: translateY(500%);
+    transform: translate(-50%,500%);
 }
 
 .projects .content .workBox .textBx2:hover {
